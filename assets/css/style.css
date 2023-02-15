@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
+  background: linear-gradient(#5d76a4, #14202e);
 }
 
 /* styles for login box */
@@ -73,7 +73,7 @@ body {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  columns: #03e9f4;
+  color: #03e9f4; 
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
