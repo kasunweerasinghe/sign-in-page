@@ -19,8 +19,8 @@ body {
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6)
-  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
 }
 
 /* Login Text styles */
@@ -67,4 +67,19 @@ text-align: center;
   left: 0;
   color: #03e9f4;
   font-size: 12px;
+}
+
+/* styles for submit btn */
+.login-box form a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    columns: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px; 
+    letter-spacing: 4px 
 }
