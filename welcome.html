@@ -15,10 +15,35 @@
         <!-- ul menu -->
         <ul class="slider-menu">
           <li><a href="#" onclick="signOut()">Log Out</a></li>
-          <li><a href="#" onclick="">Add User</a></li>
+          <!-- <li><a href="#" onclick="addNewUser()">Add User</a></li> -->
         </ul>
       </div>
     </div>
+
+<!-- ---------------------------ADD USER--------------------------------------------- -->
+    <!-- main div -->
+    <div class="login-box">
+        <h2>Add User</h2>
+  
+        <!-- form user name and password -->
+        <form>
+  
+          <!-- username -->
+          <div class="user-box">
+            <input type="text" name="" required="" id="userName"/>
+            <label>Username</label>
+          </div>
+  
+          <!-- password -->
+          <div class="user-box">
+            <input type="password" name="" required="" id="password"/>
+            <label>Password</label>
+          </div>
+  
+          <!-- login button -->
+          <a href="#" onclick="signUp()" type="button"> signup </a>
+        </form>
+      </div>
 
     <script src="assets/js/welcome.js"></script>
   </body>
