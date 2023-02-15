@@ -24,17 +24,16 @@ body {
 }
 
 /* Login Text styles */
-.login-box h2 { 
-margin: 0 0 30px; 
-padding: 0; 
-color: #fff; 
-text-align: center; 
-} 
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
 
-.login-box .user-box { 
-    position: relative; 
-} 
-
+.login-box .user-box {
+  position: relative;
+}
 
 /* styles for username and password input field */
 .login-box .user-box input {
@@ -70,16 +69,25 @@ text-align: center;
 }
 
 /* styles for login btn */
-.login-box form a{
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    columns: #03e9f4;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px; 
-    letter-spacing: 4px 
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  columns: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+/* hover for login button */
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
 }
