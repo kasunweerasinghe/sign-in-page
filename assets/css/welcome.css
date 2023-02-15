@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap");
+
+/* styles for html and body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(235, 76, 171),
+    rgb(227, 77, 171),
+    rgb(218, 78, 170),
+    rgb(210, 80, 170),
+    rgb(202, 81, 170),
+    rgb(193, 82, 170),
+    rgb(185, 83, 169),
+    rgb(176, 84, 169),
+    rgb(168, 85, 169),
+    rgb(160, 87, 169),
+    rgb(151, 88, 168),
+    rgb(143, 89, 168)
+  );
+}
+
+
