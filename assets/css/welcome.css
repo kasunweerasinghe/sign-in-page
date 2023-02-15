@@ -86,3 +86,8 @@ body {
   color: #faa;
   box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
 }
+
+.slider-menu>li>a{
+    text-decoration: none;
+    color: #fff;
+}
